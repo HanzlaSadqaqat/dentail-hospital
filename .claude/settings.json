@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Read(//tmp/**)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(cd \"f:/upwork projects/delaware-dental-solutions/dental-site\" && tail -5 /tmp/devserver.log 2>/dev/null; ps aux | grep -i node | head -5)",
+      "Bash(mkdir -p \"app/\\(site\\)/services/[slug]\")",
+      "Bash(mv \"app/services/[slug]/page.tsx\" \"app/\\(site\\)/services/[slug]/page.tsx\")",
+      "Bash(rmdir \"app/services/[slug]\")",
+      "Bash(npx tsc *)",
+      "Bash(mkdir -p \"f:/upwork projects/delaware-dental-solutions/dental-site/app/\\(site\\)/blog/[slug]\")",
+      "Bash(mkdir -p \"f:/upwork projects/delaware-dental-solutions/dental-site/app/admin/\\(dashboard\\)/doctors/new\" \"f:/upwork projects/delaware-dental-solutions/dental-site/app/admin/\\(dashboard\\)/doctors/[id]/edit\")"
+    ],
+    "additionalDirectories": [
+      "f:\\upwork projects\\delaware-dental-solutions\\dental-site\\app\\(site)\\blog",
+      "f:\\upwork projects\\delaware-dental-solutions\\dental-site\\app\\admin\\(dashboard)\\doctors\\[id]"
+    ]
+  }
+}
